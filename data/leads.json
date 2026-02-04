@@ -1,0 +1,86 @@
+[
+  {
+    "id": "lead-001",
+    "name": "Rajesh Kumar",
+    "phone": "+91 98765 43210",
+    "budget": "8500000",
+    "timeline": "15",
+    "purpose": "Investment",
+    "intentScore": 95,
+    "status": "High",
+    "source": "Facebook",
+    "createdAt": "2026-02-01T10:30:00Z"
+  },
+  {
+    "id": "lead-002",
+    "name": "Priya Sharma",
+    "phone": "+91 98765 43211",
+    "budget": "6000000",
+    "timeline": "45",
+    "purpose": "Residential",
+    "intentScore": 70,
+    "status": "High",
+    "source": "Website",
+    "createdAt": "2026-02-01T14:20:00Z"
+  },
+  {
+    "id": "lead-003",
+    "name": "Amit Patel",
+    "phone": "+91 98765 43212",
+    "budget": "4500000",
+    "timeline": "90",
+    "purpose": "Residential",
+    "intentScore": 50,
+    "status": "Medium",
+    "source": "WhatsApp",
+    "createdAt": "2026-02-02T09:15:00Z"
+  },
+  {
+    "id": "lead-004",
+    "name": "Sunita Verma",
+    "phone": "+91 98765 43213",
+    "budget": "12000000",
+    "timeline": "7",
+    "purpose": "Investment",
+    "intentScore": 100,
+    "status": "High",
+    "source": "Facebook",
+    "createdAt": "2026-02-02T16:45:00Z"
+  },
+  {
+    "id": "lead-005",
+    "name": "Rahul Singh",
+    "phone": "+91 98765 43214",
+    "budget": "3500000",
+    "timeline": "120",
+    "purpose": "Residential",
+    "intentScore": 30,
+    "status": "Cold",
+    "source": "Website",
+    "createdAt": "2026-02-03T11:00:00Z"
+  },
+  {
+    "id": "lead-006",
+    "name": "Neha Gupta",
+    "phone": "+91 98765 43215",
+    "budget": "7500000",
+    "timeline": "30",
+    "purpose": "Investment",
+    "intentScore": 85,
+    "status": "High",
+    "source": "WhatsApp",
+    "createdAt": "2026-02-03T13:30:00Z"
+  },
+  {
+    "id": "lead-007",
+    "name": "Vikram Mehta",
+    "phone": "+91 98765 43216",
+    "budget": "5000000",
+    "timeline": "60",
+    "purpose": "Residential",
+    "intentScore": 55,
+    "status": "Medium",
+    "source": "Facebook",
+    "createdAt": "2026-02-04T08:20:00Z"
+  }
+]

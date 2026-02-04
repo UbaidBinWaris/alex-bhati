@@ -1,0 +1,92 @@
+[
+  {
+    "id": "followup-001",
+    "leadId": "lead-001",
+    "leadName": "Rajesh Kumar",
+    "day": 1,
+    "message": "Hi Rajesh! Thank you for your interest in our premium properties. I'm here to help you find your perfect investment opportunity.",
+    "sent": true,
+    "sentAt": "2026-02-01T10:31:00Z"
+  },
+  {
+    "id": "followup-002",
+    "leadId": "lead-001",
+    "leadName": "Rajesh Kumar",
+    "day": 3,
+    "message": "Hi Rajesh, just following up on your property search. Would you like to schedule a site visit this week?",
+    "sent": true,
+    "sentAt": "2026-02-03T10:30:00Z"
+  },
+  {
+    "id": "followup-003",
+    "leadId": "lead-002",
+    "leadName": "Priya Sharma",
+    "day": 1,
+    "message": "Hi Priya! Thank you for showing interest. We have some amazing residential properties that match your budget.",
+    "sent": true,
+    "sentAt": "2026-02-01T14:21:00Z"
+  },
+  {
+    "id": "followup-004",
+    "leadId": "lead-002",
+    "leadName": "Priya Sharma",
+    "day": 3,
+    "message": "Hi Priya, I wanted to share our exclusive property brochure with you. Can I send it over?",
+    "sent": true,
+    "sentAt": "2026-02-03T14:20:00Z"
+  },
+  {
+    "id": "followup-005",
+    "leadId": "lead-003",
+    "leadName": "Amit Patel",
+    "day": 1,
+    "message": "Hi Amit! Thanks for your inquiry. Let's find you the perfect home!",
+    "sent": true,
+    "sentAt": "2026-02-02T09:16:00Z"
+  },
+  {
+    "id": "followup-006",
+    "leadId": "lead-003",
+    "leadName": "Amit Patel",
+    "day": 7,
+    "message": "Hi Amit, just checking in. Are you still looking for properties in your budget range?",
+    "sent": false,
+    "scheduledFor": "2026-02-09T09:15:00Z"
+  },
+  {
+    "id": "followup-007",
+    "leadId": "lead-004",
+    "leadName": "Sunita Verma",
+    "day": 1,
+    "message": "Hi Sunita! Thank you for your interest. With your timeline, let me prioritize showing you ready-to-move properties.",
+    "sent": true,
+    "sentAt": "2026-02-02T16:46:00Z"
+  },
+  {
+    "id": "followup-008",
+    "leadId": "lead-005",
+    "leadName": "Rahul Singh",
+    "day": 1,
+    "message": "Hi Rahul! Thanks for reaching out. Let's explore some great residential options for you.",
+    "sent": true,
+    "sentAt": "2026-02-03T11:01:00Z"
+  },
+  {
+    "id": "followup-009",
+    "leadId": "lead-006",
+    "leadName": "Neha Gupta",
+    "day": 1,
+    "message": "Hi Neha! Excited to help you with your investment property search. We have premium options available.",
+    "sent": true,
+    "sentAt": "2026-02-03T13:31:00Z"
+  },
+  {
+    "id": "followup-010",
+    "leadId": "lead-007",
+    "leadName": "Vikram Mehta",
+    "day": 1,
+    "message": "Hi Vikram! Thank you for your interest. Let me help you find the right property.",
+    "sent": true,
+    "sentAt": "2026-02-04T08:21:00Z"
+  }
+]

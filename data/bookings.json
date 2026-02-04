@@ -1,0 +1,42 @@
+[
+  {
+    "id": "booking-001",
+    "leadId": "lead-001",
+    "leadName": "Rajesh Kumar",
+    "date": "2026-02-05",
+    "time": "10:00 AM",
+    "status": "Confirmed",
+    "property": "Luxe Residency, Whitefield",
+    "createdAt": "2026-02-01T10:35:00Z"
+  },
+  {
+    "id": "booking-002",
+    "leadId": "lead-002",
+    "leadName": "Priya Sharma",
+    "date": "2026-02-06",
+    "time": "2:00 PM",
+    "status": "Confirmed",
+    "property": "Green Valley Apartments, HSR Layout",
+    "createdAt": "2026-02-01T14:30:00Z"
+  },
+  {
+    "id": "booking-003",
+    "leadId": "lead-004",
+    "leadName": "Sunita Verma",
+    "date": "2026-02-05",
+    "time": "4:00 PM",
+    "status": "Confirmed",
+    "property": "Premium Towers, Koramangala",
+    "createdAt": "2026-02-02T16:50:00Z"
+  },
+  {
+    "id": "booking-004",
+    "leadId": "lead-006",
+    "leadName": "Neha Gupta",
+    "date": "2026-02-07",
+    "time": "11:00 AM",
+    "status": "Pending",
+    "property": "Sky Heights, Electronic City",
+    "createdAt": "2026-02-03T13:40:00Z"
+  }
+]

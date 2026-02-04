@@ -1,0 +1,67 @@
+[
+  {
+    "id": "old-lead-001",
+    "name": "Sanjay Malhotra",
+    "phone": "+91 98765 40001",
+    "budget": "5500000",
+    "timeline": "180",
+    "purpose": "Residential",
+    "intentScore": 25,
+    "status": "Inactive",
+    "source": "Website",
+    "createdAt": "2025-11-15T10:30:00Z",
+    "lastContact": "2025-11-20T10:30:00Z"
+  },
+  {
+    "id": "old-lead-002",
+    "name": "Kavita Reddy",
+    "phone": "+91 98765 40002",
+    "budget": "6500000",
+    "timeline": "150",
+    "purpose": "Investment",
+    "intentScore": 20,
+    "status": "Inactive",
+    "source": "Facebook",
+    "createdAt": "2025-10-22T14:20:00Z",
+    "lastContact": "2025-11-01T14:20:00Z"
+  },
+  {
+    "id": "old-lead-003",
+    "name": "Arjun Nair",
+    "phone": "+91 98765 40003",
+    "budget": "4000000",
+    "timeline": "200",
+    "purpose": "Residential",
+    "intentScore": 15,
+    "status": "Inactive",
+    "source": "WhatsApp",
+    "createdAt": "2025-09-10T09:15:00Z",
+    "lastContact": "2025-09-25T09:15:00Z"
+  },
+  {
+    "id": "old-lead-004",
+    "name": "Deepa Iyer",
+    "phone": "+91 98765 40004",
+    "budget": "8000000",
+    "timeline": "160",
+    "purpose": "Investment",
+    "intentScore": 30,
+    "status": "Inactive",
+    "source": "Website",
+    "createdAt": "2025-10-05T16:45:00Z",
+    "lastContact": "2025-10-20T16:45:00Z"
+  },
+  {
+    "id": "old-lead-005",
+    "name": "Manoj Desai",
+    "phone": "+91 98765 40005",
+    "budget": "3000000",
+    "timeline": "240",
+    "purpose": "Residential",
+    "intentScore": 10,
+    "status": "Inactive",
+    "source": "Facebook",
+    "createdAt": "2025-08-18T11:00:00Z",
+    "lastContact": "2025-09-01T11:00:00Z"
+  }
+]
