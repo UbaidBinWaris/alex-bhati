@@ -8,42 +8,49 @@ export interface WhatsAppMessage {
 
 export function generateWhatsAppSequence(leadName: string, budget: string, purpose: string): WhatsAppMessage[] {
   const firstName = leadName.split(" ")[0];
+  const baseTime = Date.now();
+  const budgetNum = typeof budget === 'string' ? parseInt(budget) : budget;
+  const formattedBudget = budgetNum >= 10000000 
+    ? `₹${(budgetNum / 10000000).toFixed(1)} Cr` 
+    : budgetNum >= 100000 
+    ? `₹${(budgetNum / 100000).toFixed(1)} L` 
+    : `₹${budgetNum.toLocaleString('en-IN')}`;
   
   return [
     {
-      id: "msg-1",
+      id: `msg-${baseTime}-1`,
       text: `Hi ${firstName}! 👋 Thank you for your interest in our premium properties.`,
       timestamp: new Date(),
       sender: "bot",
       delay: 1000,
     },
     {
-      id: "msg-2",
-      text: `I see you're looking for a ${purpose.toLowerCase()} property with a budget of ${budget}. Great choice!`,
+      id: `msg-${baseTime}-2`,
+      text: `I see you're looking for a ${purpose.toLowerCase()} property with a budget of ${formattedBudget}. Great choice!`,
       timestamp: new Date(),
       sender: "bot",
       delay: 2500,
     },
     {
-      id: "msg-3",
+      id: `msg-${baseTime}-3`,
       text: `We have some exclusive properties that match your requirements perfectly. Would you like to schedule a site visit?`,
       timestamp: new Date(),
       sender: "bot",
       delay: 4000,
     },
     {
-      id: "msg-4",
-      text: `📅 I can book a viewing for you at your preferred time. Click the link below to choose a slot:`,
+      id: `msg-${baseTime}-4`,
+      text: `📅 I can book a viewing for you at your preferred time. Click the button below to choose a slot!`,
       timestamp: new Date(),
       sender: "bot",
       delay: 5500,
     },
     {
-      id: "msg-5",
-      text: `🔗 Book Your Site Visit →`,
+      id: `msg-${baseTime}-5`,
+      text: `I'm here to assist you 24/7. Looking forward to helping you find your perfect property! 🏡`,
       timestamp: new Date(),
       sender: "bot",
-      delay: 6500,
+      delay: 7000,
     },
   ];
 }
