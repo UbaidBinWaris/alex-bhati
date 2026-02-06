@@ -21,6 +21,10 @@ export function Navbar() {
                 </div>
 
                 <div className="flex items-center gap-4">
+                    <Link href="/admin-demo/automations" className="hidden md:flex items-center gap-2 text-sm font-medium text-purple-400 hover:text-purple-300 transition-colors mr-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10" /><path d="m9 12 2 2 4-4" /></svg>
+                        <span>Demo Automations</span>
+                    </Link>
                     <Link href="/dashboard" className="hidden md:flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-white transition-colors">
                         <LayoutDashboard className="w-4 h-4" />
                         <span>Owner Portal</span>

@@ -45,6 +45,10 @@ export default function AdminDashboard() {
                         <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
                         <span className="text-green-400 text-sm font-medium">System Active</span>
                     </div>
+                    <Link href="/admin-demo/automations" className="px-4 py-2 bg-purple-500/10 hover:bg-purple-500/20 rounded-lg border border-purple-500/30 text-purple-400 text-sm transition-colors flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z" /><path d="M19 10v2a7 7 0 0 1-14 0v-2" /><line x1="12" x2="12" y1="19" y2="22" /></svg>
+                        View Automations
+                    </Link>
                     <Link href="/" className="px-4 py-2 bg-white/5 hover:bg-white/10 rounded-lg border border-white/10 text-sm transition-colors">
                         View Live Site
                     </Link>
@@ -183,8 +187,8 @@ const ConversationItem = ({ name, status, score, lastMsg, time }: { name: string
             <p className="text-xs text-gray-400 mb-2 line-clamp-1">"{lastMsg}"</p>
             <div className="flex gap-2">
                 <span className={`text-[10px] px-2 py-0.5 rounded-full border ${status === 'Booking' ? 'bg-green-500/10 border-green-500/30 text-green-400' :
-                        status === 'Qualifying' ? 'bg-blue-500/10 border-blue-500/30 text-blue-400' :
-                            'bg-zinc-700 border-zinc-600 text-gray-400'
+                    status === 'Qualifying' ? 'bg-blue-500/10 border-blue-500/30 text-blue-400' :
+                        'bg-zinc-700 border-zinc-600 text-gray-400'
                     }`}>
                     {status}
                 </span>
