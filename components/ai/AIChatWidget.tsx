@@ -32,7 +32,7 @@ const SimpleCalendar = ({ onSelect }: { onSelect: (date: Date) => void }) => {
 };
 
 export const AIChatWidget = () => {
-    const { messages, isTyping, isOpen, setIsOpen, handleUserResponse, handleBookingConfirm } = useOChatSimulation();
+    const { messages, isTyping, isOpen, setIsOpen, handleUserResponse, handleBookingConfirm, leadScore } = useOChatSimulation();
     const messagesEndRef = useRef<HTMLDivElement>(null);
 
     const scrollToBottom = () => {
@@ -47,12 +47,15 @@ export const AIChatWidget = () => {
         <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end pointer-events-none">
             {/* Chat Window */}
             {isOpen && (
-                <div className="pointer-events-auto w-[350px] h-[500px] bg-black/80 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl flex flex-col overflow-hidden animate-in slide-in-from-bottom-10 fade-in duration-300 mb-4 ring-1 ring-blue-500/20">
+                <div className="pointer-events-auto w-[350px] h-[600px] bg-black/80 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl flex flex-col overflow-hidden animate-in slide-in-from-bottom-10 fade-in duration-300 mb-4 ring-1 ring-blue-500/20">
                     {/* Header */}
                     <div className="p-4 bg-gradient-to-r from-blue-600 to-indigo-600 flex items-center justify-between">
                         <div className="flex items-center gap-2">
                             <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse"></div>
-                            <h3 className="text-white font-semibold text-sm">AI Sales Agent</h3>
+                            <div>
+                                <h3 className="text-white font-semibold text-sm">AI Sales Agent</h3>
+                                <p className="text-[10px] text-white/80">Live Intent Score: <span className="font-bold text-yellow-300">{leadScore}/100</span></p>
+                            </div>
                         </div>
                         <button onClick={() => setIsOpen(false)} className="text-white/70 hover:text-white">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg>
