@@ -21,45 +21,69 @@ export default function AboutPage() {
                     </p>
                 </motion.div>
 
-                <div className="grid md:grid-cols-3 gap-8 mb-24">
+                <div className="grid md:grid-cols-2 gap-8 mb-24">
                     <motion.div
-                        initial={{ opacity: 0, y: 30 }}
-                        whileInView={{ opacity: 1, y: 0 }}
+                        initial={{ opacity: 0, x: -20 }}
+                        whileInView={{ opacity: 1, x: 0 }}
                         transition={{ delay: 0.1 }}
-                        className="glass-card p-8 rounded-2xl border border-white/10 text-center"
+                        className="glass-card p-10 rounded-3xl border border-white/10 relative overflow-hidden group"
                     >
-                        <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6 text-primary">
+                        <div className="absolute top-0 right-0 p-8 opacity-10 group-hover:opacity-20 transition-opacity">
+                            <Target className="w-32 h-32 text-primary" />
+                        </div>
+                        <h3 className="text-3xl font-bold mb-6 text-primary flex items-center gap-3">
                             <Target className="w-8 h-8" />
-                        </div>
-                        <h3 className="text-2xl font-bold mb-4">Our Mission</h3>
-                        <p className="text-muted-foreground">To empower investors by providing transparent, high-value land deals and automated management solutions.</p>
+                            Our Mission
+                        </h3>
+                        <p className="text-lg text-muted-foreground leading-relaxed">
+                            To democratize land ownership by providing transparent, affordable, and high-value real estate solutions. We aim to shield investors from fraud and bureaucracy through automated, verified, and seamless property transactions.
+                        </p>
                     </motion.div>
 
                     <motion.div
-                        initial={{ opacity: 0, y: 30 }}
-                        whileInView={{ opacity: 1, y: 0 }}
+                        initial={{ opacity: 0, x: 20 }}
+                        whileInView={{ opacity: 1, x: 0 }}
                         transition={{ delay: 0.2 }}
-                        className="glass-card p-8 rounded-2xl border border-white/10 text-center"
+                        className="glass-card p-10 rounded-3xl border border-white/10 relative overflow-hidden group"
                     >
-                        <div className="w-16 h-16 bg-blue-500/10 rounded-full flex items-center justify-center mx-auto mb-6 text-blue-500">
+                        <div className="absolute top-0 right-0 p-8 opacity-10 group-hover:opacity-20 transition-opacity">
+                            <Shield className="w-32 h-32 text-blue-500" />
+                        </div>
+                        <h3 className="text-3xl font-bold mb-6 text-blue-500 flex items-center gap-3">
                             <Shield className="w-8 h-8" />
-                        </div>
-                        <h3 className="text-2xl font-bold mb-4">Trust & Security</h3>
-                        <p className="text-muted-foreground">We ensure every title deed is genuine and every transaction is secure. No hidden fees, no complications.</p>
+                            Our Vision
+                        </h3>
+                        <p className="text-lg text-muted-foreground leading-relaxed">
+                            To be the most trusted real estate partner in East Africa, leveraging technology to create a future where every plot of land is a secure, profitable, and stress-free asset for generations to come.
+                        </p>
                     </motion.div>
+                </div>
 
-                    <motion.div
-                        initial={{ opacity: 0, y: 30 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ delay: 0.3 }}
-                        className="glass-card p-8 rounded-2xl border border-white/10 text-center"
-                    >
-                        <div className="w-16 h-16 bg-green-500/10 rounded-full flex items-center justify-center mx-auto mb-6 text-green-500">
-                            <Users className="w-8 h-8" />
+                <div className="text-center mb-24">
+                    <h2 className="text-3xl font-bold mb-12">Our Core Values</h2>
+                    <div className="grid md:grid-cols-3 gap-8">
+                        <div className="glass-card p-8 rounded-2xl border border-white/10">
+                            <div className="w-14 h-14 bg-green-500/10 rounded-full flex items-center justify-center mx-auto mb-6 text-green-500">
+                                <Users className="w-7 h-7" />
+                            </div>
+                            <h4 className="text-xl font-bold mb-3">Customer First</h4>
+                            <p className="text-muted-foreground">We prioritize your needs, offering personalized support from inquiry to title deed delivery.</p>
                         </div>
-                        <h3 className="text-2xl font-bold mb-4">Customer First</h3>
-                        <p className="text-muted-foreground">From site visits to title transfer, our team walks with you every step of the journey.</p>
-                    </motion.div>
+                        <div className="glass-card p-8 rounded-2xl border border-white/10">
+                            <div className="w-14 h-14 bg-purple-500/10 rounded-full flex items-center justify-center mx-auto mb-6 text-purple-500">
+                                <Shield className="w-7 h-7" />
+                            </div>
+                            <h4 className="text-xl font-bold mb-3">Integrity</h4>
+                            <p className="text-muted-foreground">We operate with 100% transparency. No hidden fees, no ambiguous terms, just honest deals.</p>
+                        </div>
+                        <div className="glass-card p-8 rounded-2xl border border-white/10">
+                            <div className="w-14 h-14 bg-amber-500/10 rounded-full flex items-center justify-center mx-auto mb-6 text-amber-500">
+                                <Target className="w-7 h-7" />
+                            </div>
+                            <h4 className="text-xl font-bold mb-3">Innovation</h4>
+                            <p className="text-muted-foreground">Using modern tech to streamline site visits, payments, and documentation for you.</p>
+                        </div>
+                    </div>
                 </div>
 
                 <div className="bg-white/5 rounded-3xl p-12 text-center border border-white/10">
