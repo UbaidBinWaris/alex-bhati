@@ -1,0 +1,13 @@
+1
+REAL ESTATE MANAGEMENT ADJUSTMENTS
+Thank you for the booking. I tested the demo and I am wondering how this will be incorporated
+in the client’s systems. For example, WhatsApp and Website.
+The booking process is still manual, once the client fills the details. It should book automatically.
+Connect Calendar API to show how the booking takes place and the client should also receive an
+email in the inbox confirming the site visit.
+Which specific solution is the demo trying to address? Remember the main pain point was that
+the client is facing a challenge in selling his plots and he has been using agents. He wants
+something that runs 24/7. Try to pivot in this approach.
+Is there a way AI can help this customer? Your demo should demonstrate how to acquire clients
+at a faster rate, increasing conversion rates.
+Budget range should be in KES.

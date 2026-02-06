@@ -1,0 +1,273 @@
+Proposed Property Management System (PMS)
+For Daya Properties Ltd
+Objective
+To replace manual, fragmented processes with a centralized Property Management System
+that streamlines rent collection, tenant communication, landlord reporting, and operational
+scaling—while significantly reducing costs and staff workload.
+1. Centralized Rent Collection & Billing
+Key Features
+•
+Monthly rent and utility billing
+•
+Configurable payment deadlines
+•
+Late fee automation
+•
+Tenant payment portal
+•
+Support for Paybill and bank transfers
+•
+Automatic receipt generation
+Pain Points Addressed
+Current issues:
+•
+10–15% late payments
+•
+Heavy reliance on manual follow-ups
+•
+Physical visits for enforcement
+How PMS fixes this:
+•
+Tenants receive structured, scheduled reminders
+•
+Payments and penalties are applied automatically
+•
+Less dependence on staff intervention
+Business Impact:
+•
+Improved on-time payments
+•
+Reduced enforcement workload
+•
+Lower operational costs
+2. Automated Payment Tracking & Reconciliation
+Key Features
+•
+Integrated payment tracking (Paybill & bank)
+•
+Automatic tenant-to-payment matching
+
+•
+Real-time balance updates
+•
+Reconciliation dashboard for finance team
+Pain Points Addressed
+Current issues:
+•
+Manual reconciliation
+•
+Errors and delays in reporting
+•
+Staff time wasted on repetitive checks
+How PMS fixes this:
+•
+Payments are recorded automatically
+•
+Finance team focuses on exceptions only
+•
+Faster and more accurate reporting
+Business Impact:
+•
+Major reduction in admin work
+•
+Cleaner financial records
+•
+Faster month-end close
+3. Landlord Self-Service Portal
+Key Features
+•
+Real-time rent collection status
+•
+Automated monthly statements
+•
+Occupancy reports
+•
+Downloadable financial summaries
+•
+Historical performance tracking
+Pain Points Addressed
+Current issues:
+•
+Frequent landlord calls and WhatsApp messages
+•
+Manual statement preparation
+•
+Lack of transparency
+How PMS fixes this:
+•
+Landlords access information anytime
+•
+Statements generated automatically
+•
+Reduced dependency on staff updates
+
+Business Impact:
+•
+Fewer landlord inquiries
+•
+Improved trust and professionalism
+•
+Stronger landlord retention
+4. Tenant Communication & Support Hub
+Key Features
+•
+Centralized tenant messaging
+•
+Payment reminders
+•
+Maintenance request submission
+•
+Request status tracking
+•
+Message history per tenant
+Pain Points Addressed
+Current issues:
+•
+Repetitive tenant questions
+•
+Disorganized communication across channels
+•
+Missed or delayed responses
+How PMS fixes this:
+•
+All tenant communication in one place
+•
+Faster response times
+•
+Clear accountability
+Business Impact:
+•
+Reduced staff workload
+•
+Improved tenant satisfaction
+•
+Fewer follow-up calls
+5. Maintenance & Field Operations Management
+Key Features
+•
+Digital maintenance request logging
+•
+Task assignment to field staff
+•
+Status tracking (open / in progress / resolved)
+•
+Cost tracking per property
+
+Pain Points Addressed
+Current issues:
+•
+Reactive field visits
+•
+High fuel and personnel costs
+•
+Poor visibility into maintenance history
+How PMS fixes this:
+•
+Issues logged before escalation
+•
+Field visits scheduled efficiently
+•
+Maintenance costs tracked per unit
+Business Impact:
+•
+Fewer unnecessary site visits
+•
+Better cost control
+•
+Longer asset lifespan
+6. Operational Dashboards & Reporting
+Key Features
+•
+Rent collection performance
+•
+Late payment tracking
+•
+Occupancy overview
+•
+Staff workload visibility
+•
+Monthly and quarterly reports
+Pain Points Addressed
+Current issues:
+•
+No real-time operational visibility
+•
+Decisions based on guesswork
+•
+Reports created manually
+How PMS fixes this:
+•
+Managers see issues instantly
+•
+Data-driven decision making
+•
+Reports generated automatically
+Business Impact:
+
+•
+Faster decisions
+•
+Better resource allocation
+•
+Improved management oversight
+7. Lead & Portfolio Growth Management
+Key Features
+•
+Lead capture and tracking
+•
+Follow-up scheduling
+•
+Property onboarding workflow
+•
+Owner and tenant database
+Pain Points Addressed
+Current issues:
+•
+Manual lead handling
+•
+Lost opportunities
+•
+No scalable growth system
+How PMS fixes this:
+•
+Leads tracked from inquiry to onboarding
+•
+Structured follow-up process
+•
+Easy portfolio expansion
+Business Impact:
+•
+Higher conversion rates
+•
+Faster onboarding of new properties
+•
+Controlled, scalable growth
+8. Scalability & Security
+Key Features
+•
+Role-based user access
+•
+Audit logs
+•
+Cloud-based deployment
+•
+Multi-property support
+Pain Points Addressed
+Current issues:
+•
+System breaks as portfolio grows
+
+•
+Overdependence on specific staff members
+How PMS fixes this:
+•
+Same team manages more properties
+•
+Standardized processes across portfolio
+Business Impact:
+•
+Growth without hiring pressure
+•
+Business continuity and resilience
+“This is not a tool. It’s the operational backbone of your property management business—built to
+reduce costs, improve control, and allow you to scale without increasing headcount.”
