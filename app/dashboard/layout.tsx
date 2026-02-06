@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { LayoutDashboard, Users, CreditCard, Settings, Bell, Search, LogOut, Wrench, TrendingUp, FileText } from 'lucide-react';
+import { LayoutDashboard, Users, CreditCard, Settings, Bell, Search, LogOut, Wrench, TrendingUp, FileText, Building2 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 export default function DashboardLayout({
@@ -15,6 +15,10 @@ export default function DashboardLayout({
         { icon: LayoutDashboard, label: 'Overview', href: '/dashboard' },
         { icon: Users, label: 'Tenants', href: '/dashboard/tenants' },
         { icon: CreditCard, label: 'Finances', href: '/dashboard/finances' },
+        { icon: Building2, label: 'Properties', href: '/dashboard/properties' },
+        { icon: Wrench, label: 'Maintenance', href: '/dashboard/maintenance' },
+        { icon: TrendingUp, label: 'Leads & CRM', href: '/dashboard/leads' },
+        { icon: FileText, label: 'Reports', href: '/dashboard/reports' },
         { icon: Settings, label: 'Settings', href: '/dashboard/settings' },
     ];
 
